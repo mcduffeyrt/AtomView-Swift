@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7811AE91AC3BA6B006FBC67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7811AE81AC3BA6B006FBC67 /* AppDelegate.swift */; };
+		F7811AEB1AC3BA6B006FBC67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7811AEA1AC3BA6B006FBC67 /* ViewController.swift */; };
+		F7811AEE1AC3BA6B006FBC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7811AEC1AC3BA6B006FBC67 /* Main.storyboard */; };
+		F7811AF01AC3BA6B006FBC67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7811AEF1AC3BA6B006FBC67 /* Images.xcassets */; };
+		F7811AF31AC3BA6B006FBC67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7811AF11AC3BA6B006FBC67 /* LaunchScreen.xib */; };
+		F7811AFF1AC3BA6B006FBC67 /* AtomView_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7811AFE1AC3BA6B006FBC67 /* AtomView_SwiftTests.swift */; };
+		F7811B281AC3BFF0006FBC67 /* AtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7811B251AC3BFF0006FBC67 /* AtomView.swift */; };
+		F7811B291AC3BFF0006FBC67 /* UIColor-Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7811B261AC3BFF0006FBC67 /* UIColor-Hex.swift */; };
+		F7811B2A1AC3BFF0006FBC67 /* NSArray-RandomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7811B271AC3BFF0006FBC67 /* NSArray-RandomColors.swift */; };
+		F7811B331AC3C038006FBC67 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F7811B301AC3C038006FBC67 /* LICENSE */; };
+		F7811B341AC3C038006FBC67 /* CALayer+MBAnimationPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = F7811B321AC3C038006FBC67 /* CALayer+MBAnimationPersistence.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7811AF91AC3BA6B006FBC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7811ADB1AC3BA6B006FBC67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7811AE21AC3BA6B006FBC67;
+			remoteInfo = "AtomView-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7811AE31AC3BA6B006FBC67 /* AtomView-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AtomView-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7811AE71AC3BA6B006FBC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7811AE81AC3BA6B006FBC67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7811AEA1AC3BA6B006FBC67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7811AED1AC3BA6B006FBC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7811AEF1AC3BA6B006FBC67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7811AF21AC3BA6B006FBC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F7811AF81AC3BA6B006FBC67 /* AtomView-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AtomView-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7811AFD1AC3BA6B006FBC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7811AFE1AC3BA6B006FBC67 /* AtomView_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomView_SwiftTests.swift; sourceTree = "<group>"; };
+		F7811B181AC3BEB9006FBC67 /* AtomView-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AtomView-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		F7811B251AC3BFF0006FBC67 /* AtomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtomView.swift; path = "AtomView-Swift/AtomView.swift"; sourceTree = "<group>"; };
+		F7811B261AC3BFF0006FBC67 /* UIColor-Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-Hex.swift"; path = "AtomView-Swift/UIColor-Hex.swift"; sourceTree = "<group>"; };
+		F7811B271AC3BFF0006FBC67 /* NSArray-RandomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSArray-RandomColors.swift"; path = "AtomView-Swift/NSArray-RandomColors.swift"; sourceTree = "<group>"; };
+		F7811B301AC3C038006FBC67 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "AtomView-Swift/LICENSE"; sourceTree = "<group>"; };
+		F7811B311AC3C038006FBC67 /* CALayer+MBAnimationPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer+MBAnimationPersistence.h"; path = "AtomView-Swift/CALayer+MBAnimationPersistence.h"; sourceTree = "<group>"; };
+		F7811B321AC3C038006FBC67 /* CALayer+MBAnimationPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CALayer+MBAnimationPersistence.m"; path = "AtomView-Swift/CALayer+MBAnimationPersistence.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7811AE01AC3BA6B006FBC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7811AF51AC3BA6B006FBC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7811ADA1AC3BA6B006FBC67 = {
+			isa = PBXGroup;
+			children = (
+				F7811B1E1AC3BFA5006FBC67 /* Classes */,
+				F7811AE51AC3BA6B006FBC67 /* AtomView-Swift */,
+				F7811AFB1AC3BA6B006FBC67 /* AtomView-SwiftTests */,
+				F7811AE41AC3BA6B006FBC67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7811AE41AC3BA6B006FBC67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7811AE31AC3BA6B006FBC67 /* AtomView-Swift.app */,
+				F7811AF81AC3BA6B006FBC67 /* AtomView-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7811AE51AC3BA6B006FBC67 /* AtomView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F7811AE81AC3BA6B006FBC67 /* AppDelegate.swift */,
+				F7811AEA1AC3BA6B006FBC67 /* ViewController.swift */,
+				F7811AEC1AC3BA6B006FBC67 /* Main.storyboard */,
+				F7811AEF1AC3BA6B006FBC67 /* Images.xcassets */,
+				F7811AF11AC3BA6B006FBC67 /* LaunchScreen.xib */,
+				F7811AE61AC3BA6B006FBC67 /* Supporting Files */,
+				F7811B181AC3BEB9006FBC67 /* AtomView-Swift-Bridging-Header.h */,
+			);
+			path = "AtomView-Swift";
+			sourceTree = "<group>";
+		};
+		F7811AE61AC3BA6B006FBC67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7811AE71AC3BA6B006FBC67 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7811AFB1AC3BA6B006FBC67 /* AtomView-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7811AFE1AC3BA6B006FBC67 /* AtomView_SwiftTests.swift */,
+				F7811AFC1AC3BA6B006FBC67 /* Supporting Files */,
+			);
+			path = "AtomView-SwiftTests";
+			sourceTree = "<group>";
+		};
+		F7811AFC1AC3BA6B006FBC67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7811AFD1AC3BA6B006FBC67 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7811B1E1AC3BFA5006FBC67 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F7811B301AC3C038006FBC67 /* LICENSE */,
+				F7811B311AC3C038006FBC67 /* CALayer+MBAnimationPersistence.h */,
+				F7811B321AC3C038006FBC67 /* CALayer+MBAnimationPersistence.m */,
+				F7811B251AC3BFF0006FBC67 /* AtomView.swift */,
+				F7811B261AC3BFF0006FBC67 /* UIColor-Hex.swift */,
+				F7811B271AC3BFF0006FBC67 /* NSArray-RandomColors.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7811AE21AC3BA6B006FBC67 /* AtomView-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7811B021AC3BA6B006FBC67 /* Build configuration list for PBXNativeTarget "AtomView-Swift" */;
+			buildPhases = (
+				F7811ADF1AC3BA6B006FBC67 /* Sources */,
+				F7811AE01AC3BA6B006FBC67 /* Frameworks */,
+				F7811AE11AC3BA6B006FBC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AtomView-Swift";
+			productName = "AtomView-Swift";
+			productReference = F7811AE31AC3BA6B006FBC67 /* AtomView-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7811AF71AC3BA6B006FBC67 /* AtomView-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7811B051AC3BA6B006FBC67 /* Build configuration list for PBXNativeTarget "AtomView-SwiftTests" */;
+			buildPhases = (
+				F7811AF41AC3BA6B006FBC67 /* Sources */,
+				F7811AF51AC3BA6B006FBC67 /* Frameworks */,
+				F7811AF61AC3BA6B006FBC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7811AFA1AC3BA6B006FBC67 /* PBXTargetDependency */,
+			);
+			name = "AtomView-SwiftTests";
+			productName = "AtomView-SwiftTests";
+			productReference = F7811AF81AC3BA6B006FBC67 /* AtomView-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7811ADB1AC3BA6B006FBC67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Richard McDuffey";
+				TargetAttributes = {
+					F7811AE21AC3BA6B006FBC67 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F7811AF71AC3BA6B006FBC67 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F7811AE21AC3BA6B006FBC67;
+					};
+				};
+			};
+			buildConfigurationList = F7811ADE1AC3BA6B006FBC67 /* Build configuration list for PBXProject "AtomView-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7811ADA1AC3BA6B006FBC67;
+			productRefGroup = F7811AE41AC3BA6B006FBC67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7811AE21AC3BA6B006FBC67 /* AtomView-Swift */,
+				F7811AF71AC3BA6B006FBC67 /* AtomView-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7811AE11AC3BA6B006FBC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7811AEE1AC3BA6B006FBC67 /* Main.storyboard in Resources */,
+				F7811AF31AC3BA6B006FBC67 /* LaunchScreen.xib in Resources */,
+				F7811B331AC3C038006FBC67 /* LICENSE in Resources */,
+				F7811AF01AC3BA6B006FBC67 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7811AF61AC3BA6B006FBC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7811ADF1AC3BA6B006FBC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7811B281AC3BFF0006FBC67 /* AtomView.swift in Sources */,
+				F7811AEB1AC3BA6B006FBC67 /* ViewController.swift in Sources */,
+				F7811AE91AC3BA6B006FBC67 /* AppDelegate.swift in Sources */,
+				F7811B2A1AC3BFF0006FBC67 /* NSArray-RandomColors.swift in Sources */,
+				F7811B341AC3C038006FBC67 /* CALayer+MBAnimationPersistence.m in Sources */,
+				F7811B291AC3BFF0006FBC67 /* UIColor-Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7811AF41AC3BA6B006FBC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7811AFF1AC3BA6B006FBC67 /* AtomView_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7811AFA1AC3BA6B006FBC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7811AE21AC3BA6B006FBC67 /* AtomView-Swift */;
+			targetProxy = F7811AF91AC3BA6B006FBC67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7811AEC1AC3BA6B006FBC67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7811AED1AC3BA6B006FBC67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7811AF11AC3BA6B006FBC67 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7811AF21AC3BA6B006FBC67 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7811B001AC3BA6B006FBC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7811B011AC3BA6B006FBC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7811B031AC3BA6B006FBC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "AtomView-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AtomView-Swift/AtomView-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7811B041AC3BA6B006FBC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "AtomView-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AtomView-Swift/AtomView-Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F7811B061AC3BA6B006FBC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AtomView-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtomView-Swift.app/AtomView-Swift";
+			};
+			name = Debug;
+		};
+		F7811B071AC3BA6B006FBC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AtomView-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtomView-Swift.app/AtomView-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7811ADE1AC3BA6B006FBC67 /* Build configuration list for PBXProject "AtomView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7811B001AC3BA6B006FBC67 /* Debug */,
+				F7811B011AC3BA6B006FBC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7811B021AC3BA6B006FBC67 /* Build configuration list for PBXNativeTarget "AtomView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7811B031AC3BA6B006FBC67 /* Debug */,
+				F7811B041AC3BA6B006FBC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7811B051AC3BA6B006FBC67 /* Build configuration list for PBXNativeTarget "AtomView-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7811B061AC3BA6B006FBC67 /* Debug */,
+				F7811B071AC3BA6B006FBC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7811ADB1AC3BA6B006FBC67 /* Project object */;
+}
