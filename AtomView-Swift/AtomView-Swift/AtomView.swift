@@ -33,7 +33,7 @@ class AtomView : UIView
         return CGPathCreateCopyByTransformingPath(aPath, &transform)
     }
     
-    convenience override init() {
+    convenience init() {
         self.init(frame: UIScreen.mainScreen().bounds)
         self.backgroundColor = UIColor.blackColor()
         commonInit()
@@ -51,7 +51,7 @@ class AtomView : UIView
         
         let colors : NSArray = NSArray.ae_RandomColors()
         let index =  Int(arc4random_uniform(UInt32(colors.count)))
-        let color  = colors.objectAtIndex(Int(index)) as UIColor
+        let color  = colors.objectAtIndex(Int(index)) as! UIColor
        
         let desired : CGFloat = floor(UIScreen.mainScreen().bounds.size.width / 3)
         
